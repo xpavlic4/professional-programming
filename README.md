@@ -3,7 +3,8 @@
 # Table of Contents
 
 - [Professional Programming](#professional-programming)
-  - [Must read books](#must-read-books)
+  - [Contributing to this list](#contributing-to-this-list)
+  - [Must-read books](#must-read-books)
   - [Must-read articles](#must-read-articles)
   - [Other general material and list of resources](#other-general-material-and-list-of-resources)
     - [Courses](#courses)
@@ -17,6 +18,7 @@
     - [Coding & code quality](#coding--code-quality)
     - [Computer science](#computer-science)
     - [Databases](#databases)
+    - [Data formats](#data-formats)
     - [Data science](#data-science)
     - [Debugging](#debugging)
     - [Design (visual, UX, UI)](#design-visual-ux-ui)
@@ -73,7 +75,7 @@ This page is not meant to be comprehensive. I am trying to keep it light and not
 
 Feel free to open a PR to contribute! I will not be adding everything: as stated above, I am trying to keep the list concise.
 
-## Must read books
+## Must-read books
 
 I've found these books incredibly inspiring:
 
@@ -103,6 +105,7 @@ There are some free books available, including:
 
 * [The Imposter's Handbook](https://bigmachine.io/products/the-imposters-handbook) - $30. From the author: "Don't have a CS Degree? Neither do I - That's why I wrote this book."
 * [mr-mig/every-programmer-should-know: a collection of (mostly) technical things every software developer should know](https://github.com/mr-mig/every-programmer-should-know)
+* [Famous Laws Of Software Development](https://www.timsommer.be/famous-laws-of-software-development/)
 
 ### Courses
 
@@ -116,7 +119,7 @@ There are some free books available, including:
 * Or [The Algorithm Design Manual](https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202?ie=UTF8&qid=1297127794&ref_=sr_1_1&sr=8-1)
 * Try out some algorithms on [Project Euler](https://projecteuler.net/)
 
-Let's be honest: algo can be a pretty dry topic. [This quora question](https://www.quora.com/Is-there-a-book-that-teaches-algorithms-data-structures-and-other-computer-science-basics-in-a-fun-way) lists some funnier learning alternative, including:
+Let's be honest: algorithms can be a pretty dry topic. [This quora question](https://www.quora.com/Is-there-a-book-that-teaches-algorithms-data-structures-and-other-computer-science-basics-in-a-fun-way) lists some funnier learning alternative, including:
 
 * [Grokking Algorithms](https://www.amazon.com/dp/1617292230/ref=cm_sw_su_dp)
 * [Essential Algorithms](https://www.amazon.com/Essential-Algorithms-Practical-Approach-Computer/dp/1118612108?ie=UTF8&*Version*=1&*entries*=0)
@@ -128,6 +131,7 @@ Let's be honest: algo can be a pretty dry topic. [This quora question](https://w
 * [The tao of programming](http://www.mit.edu/~xela/tao.html): a set of parables about programming.
 * [Taking Ownership Is The Most Effective Way to Get What You Want](http://www.theeffectiveengineer.com/blog/take-ownership-of-your-goals)
 * [Finding Time to Become a Better Developer](https://medium.freecodecamp.org/finding-time-to-become-a-better-developer-eebc154881b2)
+* [Ten minutes a day](https://blog.usejournal.com/ten-minutes-a-day-e2fa1084f924): how Alex Allain wrote a book in less than 200 hours, by writing 10 minutes *every* day.
 
 ### Automation
 
@@ -144,6 +148,7 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 * [The Conjoined Triangles of Senior-Level Development](http://frontside.io/blog/2016/07/07/the-conjoined-triangles-of-senior-level-development.html) looks into how to define a senior engineer.
 * [Ten Principles for Growth as an Engineer](https://medium.com/@daniel.heller/ten-principles-for-growth-69015e08c35b), Dan Heller.
 * [Don't Call Yourself a Programmer](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/), Patrick McKenzie.
+* [On being an Engineering Manager](https://nickmchardy.com/2019/02/on-being-an-engineering-manager.html)
 
 ### Characters sets
 
@@ -152,7 +157,6 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 ### Coding & code quality
 
 * [Write code that is easy to delete, not easy to extend](http://programmingisterrible.com/post/139222674273/write-code-that-is-easy-to-delete-not-easy-to)
-* [Lessons learned writing highly available code](https://medium.com/imgur-engineering/lessons-learned-writing-highly-available-code-7eaf3d7aae00#.u7c4j6hac)
 * [The Ten Commandments of Egoless Programming](http://blog.codinghorror.com/the-ten-commandments-of-egoless-programming/)
 * [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.goodreads.com/book/show/3735293-clean-code) 📖, Robert C. Martin. Describes numerous useful best practices. A bit long. There's also a [clean code cheatsheet](cheatsheets/Clean-Code-V2.4.pdf).
 
@@ -166,10 +170,15 @@ Biases don't only apply to hiring. For instance, the fundamental attribution bia
 * [A plain english introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
 * [NOSQL Patterns](http://horicky.blogspot.nl/2009/11/nosql-patterns.html)
 * [NoSQL Databases: a Survey and Decision Guidance](https://medium.baqend.com/nosql-databases-a-survey-and-decision-guidance-ea7823a822d#.9fe79qr90)
-* [Safe Operations For High Volume PostgreSQL](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) (this is for PostgreSQL but works great for other db as well).
+* [Safe Operations For High Volume PostgreSQL](https://www.braintreepayments.com/blog/safe-operations-for-high-volume-postgresql/) (this is for PostgreSQL but works great for other DBs as well).
 * [Zero downtime database migrations](https://blog.rainforestqa.com/2014-06-27-zero-downtime-database-migrations/) (code examples are using Rails but this works great for any programming language)
 * [SQL styleguide](http://www.sqlstyle.guide/)
 * [Algorithms Behind Modern Storage Systems](https://queue.acm.org/detail.cfm?id=3220266), ACM Queue
+
+### Data formats
+
+* [Falsehoods Programmers Believe About Phone Numbers](https://github.com/googlei18n/libphonenumber/blob/master/FALSEHOODS.md), Google's `libphonenumber`.
+* [Rules for Autocomplete](http://jeremymikkola.com/posts/2019_03_19_rules_for_autocomplete.html): rough specifications for autocomplete fields
 
 ### Data science
 
@@ -211,6 +220,7 @@ Articles:
 * Google's [API Design Guide](https://cloud.google.com/apis/design/): a general guide to design networked API.
 * [Domain-driven design](https://en.wikipedia.org/wiki/Domain-driven_design), Wikipedia.
 * [On the Spectrum of Abstraction](https://www.youtube.com/watch?v=mVVNJKv9esE) 🎞, Cheng Lou
+* [The “Bug-O” Notation](https://overreacted.io/the-bug-o-notation/), Dan Abramov
 
 I maintain a [list of antipatterns](https://github.com/charlax/antipatterns) on another repo. This is a highly recommended read.
 
@@ -218,9 +228,7 @@ I maintain a [list of antipatterns](https://github.com/charlax/antipatterns) on 
 * [Composition Instead Of Inheritance](http://c2.com/cgi/wiki?CompositionInsteadOfInheritance)
 * [Complexity and Strategy](https://hackernoon.com/complexity-and-strategy-325cd7f59a92): interesting perspective on complexity and flexibility with really good examples (e.g. Google Apps Suite vs. Microsoft Office).
 
-Quotes:
-
-* "You can use an eraser on the drafting table or a sledge hammer on the construction site.", Frank Lloyd Wright
+> You can use an eraser on the drafting table or a sledge hammer on the construction site. (Frank Lloyd Wright)
 
 #### Design: simplicity
 
@@ -240,7 +248,7 @@ Tools
 
 ### Diversity & inclusion
 
-Checkout my [list of management
+Check out my [list of management
 resources](https://github.com/charlax/engineering-management).
 
 ### Documentation
@@ -282,7 +290,7 @@ The best way to learn is to learn by doing.
 * [Incident Response at Heroku](https://blog.heroku.com/archives/2014/5/9/incident-response-at-heroku)
 * [Blameless PostMortems and a Just Culture](https://codeascraft.com/2012/05/22/blameless-postmortems/)
 * [My Philosophy on Alerting](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/preview#heading=h.fs3knmjt7fjy)
-* A great example of [notes taken during outage](https://docs.google.com/document/d/1GCK53YDcBWQveod9kfzW-VCxIABGiryG7_z_6jHdVik/pub) and [postmortem from Gitlab (01/31/2017)](https://about.gitlab.com/2017/02/01/gitlab-dot-com-database-incident/). This one's a tricky one because an engineer's action caused the irremediable loss of 6 hours of data.
+* A great example of a [postmortem from Gitlab (01/31/2017)](https://about.gitlab.com/2017/02/01/gitlab-dot-com-database-incident/) for an outage during which an engineer's action caused the irremediable loss of 6 hours of data.
 
 ### Internet
 
@@ -334,7 +342,7 @@ See [Project management section on my engineering-management list of resources](
 
 I would recommend learning:
 
-* JavaScript and may be one other interpreted language (Python, Ruby, etc.). Interpreted languages are useful for quick one-off automation scripts, and fastest to write for interviews.
+* JavaScript and maybe another interpreted language (Python, Ruby, etc.). Interpreted languages are useful for quick one-off automation scripts, and fastest to write for interviews. JavaScript is ubiquitous.
 * A compiled language (Java, C, C++...).
 * A more recent language to see where the industry is going (as of writing, Go, Swift, Rust, Elixir...).
 * A language that has first-class support for functional programming (Haskell, Scala, Clojure...).
@@ -361,6 +369,7 @@ JavaScript is such a pervasive language that it's almost required learning.
 * [Jargon from the functional programming world](https://github.com/hemanth/functional-programming-jargon)
 * [Goodbye, Object Oriented Programming](https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53#.39ax09e4k)
 * [Functional Programming & Haskell](https://www.youtube.com/watch?v=LnX3B9oaKzw): some good reasons to learn FP!
+* [Functional Programming Fundamentals](https://www.matthewgerstman.com/functional-programming-fundamentals/): short introduction to FP and its advantages.
 
 ### Over-engineering
 
@@ -452,6 +461,8 @@ Rob Pike, [Go at Google: Language Design in the Service of Software Engineering]
 * [Eradicating Non-Determinism in Tests](http://www.martinfowler.com/articles/nonDeterminism.html), Martin Fowler
 * ["I get paid for code that works, not for tests"](https://istacee.wordpress.com/2013/09/18/kent-beck-i-get-paid-for-code-that-works-not-for-tests/)
 * [Software Testing Anti-patterns](http://blog.codepipes.com/testing/software-testing-antipatterns.html), Kostis Kapelonis.
+* [Write tests. Not too many. Mostly integration.](https://blog.kentcdodds.com/write-tests-not-too-many-mostly-integration-5e8c7fff591c) for a contrarian take about unit testing...
+* [Testing is Not for Beginners](https://www.calhoun.io/testing-is-not-for-beginners/): why learning to test is hard. This shouldn't demotivate you though!
 
 ### Tools
 
